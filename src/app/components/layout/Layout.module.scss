@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 1rem;
+}
+
+.header {
+  @apply bg-gray-800 p-4 flex justify-between items-center;
+}
+
+.sidebar {
+  @apply bg-gray-800 w-64 h-screen p-4;
+}
